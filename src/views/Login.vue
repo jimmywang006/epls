@@ -12,10 +12,12 @@
         required
       ></v-text-field>
       <v-text-field
+       class="input-group--focused"
         v-model="password"
         :rules="passwordRules"
         label="Password"
         required
+         :type="show4 ? 'text' : 'password'"
       ></v-text-field>
 
       <v-btn :disabled="!valid" color="success" @click="login()"> 登錄 </v-btn>

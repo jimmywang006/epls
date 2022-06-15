@@ -1,21 +1,21 @@
-# epls
+# 環境小尖兵 前端
 
-## Project setup
+## 專案項目安裝
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 專案啟動
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+###  專案部署
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### 專案修復
 ```
 npm run lint
 ```

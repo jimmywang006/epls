@@ -117,7 +117,7 @@ export default {
         "https://data.epa.gov.tw/api/v2/acidr_p_01?api_key=3fed6367-0e50-412a-8747-a47487c03977"
       )
       .then((response) => {
-        this.water = response.data.records[3];
+        this.water = response.data.records[1];
         console.log(this.water);
       });
   
